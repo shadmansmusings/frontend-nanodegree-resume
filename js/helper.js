@@ -6,7 +6,7 @@ Don't worry, you'll learn what's going on in this file throughout the course. Yo
 
 Cameron Pittman
 */
-
+/* add a comment */
 
 /*
 These are HTML strings. As part of the course, you'll be using JavaScript functions
@@ -65,7 +65,7 @@ The International Name challenge in Lesson 2 where you'll create a function that
 $(document).ready(function() {
   $('button').click(function() {
     var iName = inName() || function(){};
-    $('#name').html(iName);  
+    $('#name').html(iName);
   });
 });
 
